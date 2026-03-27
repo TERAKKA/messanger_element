@@ -1,3 +1,6 @@
+# What is
+Install messanger on local VM. Registration is based on administrator tokens only. Federation and interaction with matrix servers are disabled.
+
 # Install docker + compose
 ```bash
 sudo apt-get install ca-certificates curl gnupg lsb-release -y

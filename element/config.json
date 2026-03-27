@@ -1,0 +1,58 @@
+{
+    "default_server_config": {
+        "m.homeserver": {
+            "base_url": "https://mynotesserv.ru",
+            "server_name": "mynotesserv.ru"
+        }
+    },
+    "show_labs_settings": true,
+    "features": {
+        "feature_custom_themes": true,
+        "feature_video_rooms": true,
+        "feature_group_calls": true,
+        "feature_layout_side_by_side": true,
+        "feature_layout_bubbles": true,
+        "feature_element_call_video_rooms": true,
+        "feature_custom_css": true
+    },
+
+    "setting_defaults": {
+        "custom_themes": [
+            {
+                "name": "Telegram Dark",
+                "is_dark": true,
+                "colors": {
+                    "accent-color": "#3390ec",
+                    "timeline-background": "#0e1621",
+                    "message-bubble-background": "#182533",
+                    "message-bubble-sent-background": "#2b5278",
+                    "timeline-text-color": "#ffffff",
+                    "timeline-message-bottom-margin": "8px",
+                    "message-bubble-border-radius": "14px"
+                }
+            },
+            {
+                "name": "Selenized black theme",
+                "is_dark": true,
+                "colors": {
+                    "accent-color": "#70b433",
+                    "primary-color": "#4695f7",
+                    "warning-color": "#ed4a46",
+                    "sidebar-color": "#181818",
+                    "roomlist-background-color": "#252525",
+                    "roomlist-text-color": "#ffffff",
+                    "roomlist-text-secondary-color": "#b9b9b9",
+                    "roomlist-highlights-color": "#3b3b3b",
+                    "roomlist-separator-color": "#121212",
+                    "timeline-background-color": "#181818",
+                    "timeline-text-color": "#FFFFFF",
+                    "secondary-content": "#FFFFFF",
+                    "tertiary-content": "#FFFFFF",
+                    "timeline-text-secondary-color": "#777777",
+                    "timeline-highlights-color": "#252525",
+                    "reaction-row-button-selected-bg-color": "#4695f7"
+                }
+            }
+        ]
+    }
+}
