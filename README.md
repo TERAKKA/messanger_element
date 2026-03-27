@@ -13,10 +13,12 @@ docker compose version
 ```
 
 # Initialize synapse
+```bash
 cd /opt/
 mkdir matrix && cd matrix
 mkdir synapse nginx element
 docker run -it --rm -v "$(pwd)/synapse:/data" -e SYNAPSE_SERVER_NAME=mynotesserv.ru -e SYNAPSE_REPORT_STATS=yes matrixdotorg/synapse:latest generate
+```
 
 # After create configs start compose
 docker compose up -d
